@@ -1,0 +1,81 @@
+html {
+    font-family: 'roboto', sans-serif;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+
+.hero {
+    background-color: #23424A;
+    color: white;
+    padding: 100px 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-text-box {
+    width: 60%;
+}
+
+.hero-text-box p {
+    font-size: 2.1rem;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #38CFD9;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #23424A;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75;
+}
+
+
+/* SECOND SECTION */
+
+h2 {
+    font-size: 3.6rem;
+    font-weight: 900;
+    color: #87629A;
+}
+
+.rows {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    padding: 100px 0;
+}
+
+.rows p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #23424A;
+    color: white;
+}
